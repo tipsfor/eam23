@@ -1,0 +1,217 @@
+.hero__container {
+  background-color: #eeeeee;
+}
+.hero__down {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero__down-block {
+  max-width: 605px;
+  margin: 0 50px;
+}
+
+.hero__down-p {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.63;
+}
+.hero__down-p::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/icons/dot.svg);
+  width: 7px;
+  height: 7px;
+  border-radius: 50px;
+  background-color: #000;
+  top: 13px;
+  left: -28px;
+}
+
+.hero__down-text {
+  max-width: 560px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.85;
+}
+
+.exterior-odd {
+  display: flex;
+  justify-content: space-around;
+}
+
+.exterior-odd__head {
+  font-size: 30px;
+  position: relative;
+  margin: 0px 11px 30px 27px;
+}
+
+.exterior-odd__head::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/icons/dot.svg);
+  width: 9px;
+  height: 9px;
+  border-radius: 100px;
+  background-color: #000;
+  top: 13px;
+  left: -18px;
+}
+
+.exterior-odd__p {
+  font-size: 20px;
+  line-height: 1.95;
+}
+
+.exterior-odd__left {
+  max-width: 460px;
+
+  font-weight: 300;
+}
+
+.exterior-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.exterior {
+  padding: 50px;
+}
+
+.exterior-odd__right {
+}
+
+.carousel-hero {
+  width: 100%;
+  height: 100%;
+}
+
+.exterior-odd__band {
+  margin: 0 auto;
+  max-width: 760px;
+  height: 1px;
+  opacity: 0.2;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #808080); 
+ margin-top: 50px;
+ margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.exterior-odd__name {
+  font-size: 25px;
+  position: relative;
+  margin: 0px 11px 30px 27px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  align-items: center;
+}
+
+.exterior-odd__name-l {
+  display: flex;
+  font-size: 23px;
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  justify-content: center;
+}
+
+#one {
+  height: 570px;
+  width: 760px;
+}
+
+#two {
+  height: 570px;
+  width: 760px;
+}
+
+
+#three {
+  height: 570px;
+  width: 760px;
+}
+
+#four {
+  height: 570px;
+  width: 760px;
+}
+
+#five {
+  height: 570px;
+  width: 760px;
+}
+
+#six {
+  height: 570px;
+  width: 760px;
+}
+
+.land-scape-img {
+  max-width: 100%;
+  height: 100%;
+}
+
+#seven {
+  height: 497px;
+  width: 570px;
+}
+
+#eight {
+  height: 497px;
+  width: 570px;
+}
+.exterior-odd__wrap {
+
+}
+
+.exterior-even__head {
+  position: relative;
+  font-size: 30px;
+}
+
+.exterior-even__head::before {
+  content: "";
+  position: absolute;
+  background-image: url(/img/icons/dot.svg);
+  width: 9px;
+  height: 9px;
+  border-radius: 100px;
+  background-color: #000;
+  top: 13px;
+  left: -18px;
+}
+
+.exterior-even {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exterior-even__p {
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.55;
+}
+
+.exterior-even__head {
+
+  font-size: 30px;
+  position: relative;
+  margin: 0px 11px 30px 27px;
+}
+
+.exterior-odd__wrap {
+  max-width: 460px;
+}
+
+.exterior-even__p {
+  font-size: 20px;
+    line-height: 1.95;
+    font-weight: 300;
+}
+
+.exterior-even__right {
+  max-width: 460px;
+}
+
